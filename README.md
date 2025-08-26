@@ -17,3 +17,12 @@ It streams EEG signals (from **LSL/OpenBCI**) or simulates them if no device is 
 ---
 
 ## 📂 Project Structure
+RealTimeBCI/
+│── Real-Time BCI.py         # Main Python script (EEG fetch + feature extraction)
+│── README.md                # Documentation for GitHub
+│── requirements.txt         # Dependencies list
+│── data/                    # Auto-created folder (saves EEG raw + feature files)
+│    ├── mindbalance_raw.csv
+│    ├── mindbalance_features.csv
+│    └── mindbalance_features.json
+│── .gitignore               # Ignore cache, data, venv files (optional)
