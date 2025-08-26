@@ -44,11 +44,11 @@ print(df.head())
 
 After running, the following files will be created in the data/ folder:
 
-mindbalance_raw.csv → raw EEG time series.
+Real-EEG-BCI_raw.csv → raw EEG time series.
 
-mindbalance_features.csv → computed band power features.
+Real-EEG-BCI_features.csv → computed band power features.
 
-mindbalance_features.json → JSON records for web/real-time apps.
+Real-EEG-BCI_features.json → JSON records for web/real-time apps.
 
 ## 🧠 Tech Stack
 
